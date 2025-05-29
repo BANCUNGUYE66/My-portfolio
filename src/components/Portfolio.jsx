@@ -1,22 +1,31 @@
 import React from 'react';
-import budgetBuddy from '../assets/portfolio/budgetBuddy.png';
+import Eintern from '../assets/portfolio/e.intern.png';
 import eduPlanner from '../assets/portfolio/eduPlanner.png';
 import leaderboard from '../assets/portfolio/leaderboard.png';
 import math from '../assets/portfolio/math.png';
-import festival from '../assets/portfolio/festival.png';
+import farmTech from '../assets/portfolio/farmTech.png';
 import { FaEye } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
 
 const Portfolio = () => {
   const portfolio = [
     { id: 1, 
-        src: budgetBuddy,
-        text: 'Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what',
-        title: 'Budge Buddy',
-        link1: 'https://budget-app-zj69.onrender.com/',
-        link2: 'https://github.com/BANCUNGUYE66/budget-app',
-        stack: 'Ruby, Ruby on Rails, RSpec, PostgreSQL'
+        src: Eintern,
+        text: 'Mission is to connect every TVET and university graduate in Rwanda to internship opportunities, empowering them to gain workplace and entreprenuership skills.',
+        title: 'e.intern',
+        link1: 'https://e-intern-211b3.web.app/',
+        link2: 'https://github.com/BANCUNGUYE66/e-intern',
+        stack: 'React.js, PostgreSQL'
        },
+
+    { id: 6, 
+        src: farmTech, 
+        text: 'This is a web app to empower the future of farming with innovation and technology',
+        title: 'Festival',
+        link1: 'https://fth.rw/',
+        stack: 'JavaScript, HTML, CSS'
+      },   
+
     { id: 2, 
         src: eduPlanner,
         text: 'This project involves the development of an application where online courses with teachers can be reserved by students. It is built with React as the frontend and Ruby on Rails as the backend, enabling students to easily book courses with their preferred teachers among the available options.',
@@ -40,14 +49,6 @@ const Portfolio = () => {
         link1: 'https://bancunguyeaimable-calculator.onrender.com',
         link2: 'https://github.com/BANCUNGUYE66/Math-magician',
         stack: 'JavaScript, HTML, CSS, Webpack'
-      },
-      { id: 6, 
-        src: festival, 
-        text: 'This project is for selling ticket and show the location of concert.',
-        title: 'Festival',
-        link1: 'https://bancunguye66.github.io/Festival/',
-        link2: 'https://github.com/BANCUNGUYE66/Festival',
-        stack: 'JavaScript, HTML, CSS'
       },
   ];
 
